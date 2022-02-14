@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="Home"
+        android:id="@+id/home_id"/>
+    <item
+        android:title="Profile"
+        android:id="@+id/profile_id"/>
+    <item
+        android:title = "contact us"
+        android:id="@+id/contact_id"/>
+    <item
+        android:title="about us"
+        android:id="@+id/about_id"/>
+    <item
+        android:title="Exit"
+        android:id="@+id/exit_id"/>
+
+</menu>

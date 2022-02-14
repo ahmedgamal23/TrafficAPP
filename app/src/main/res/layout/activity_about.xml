@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".about" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#AE31ADC5"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="#AE31ADC5"
+            android:gravity="center"
+            android:text="TechNoBus"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="15dp">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="308dp"
+                android:src="@drawable/img_ma" />
+
+            <EditText
+                android:id="@+id/editText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:enabled="false"
+                android:keepScreenOn="true"
+                android:saveEnabled="true"
+                android:text="In the interest of your safety, we are taking all measures to limit the increase in the number of Corona. Supporting the state in converting to digital Egypt .The idea of ​​the application is based on limiting the spread of Corona by reducing the number of people inside each bus .Each person can use the application to reserve a seat, determine the route of each bus, track the movement, and determine the time of the journey. You can contact us through the chatbot to be able to assist you in any inquiries or problems you face . \n\n\n\n Worked on this project:
+                            - Ahmed Gamal Ibrahim Ali
+                            -Ahmed Ashraf Gaber Mohamed
+                            - Khaled Hisham Abdullah Mustafa
+                            - Ahmed Salah Mujahid Abu al-Qasim
+                            - Olft Nasser Ali Muhammad
+                            -Asmaa Ahmed El-Sayed Gomaa"
+                android:textColor="#508F99"
+                android:textSize="22sp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="vertical"
+                android:background="#000">
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="- ahmed_4A@gmail.com"
+                    android:textColor="#fff"
+                    android:textSize="20dp"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
